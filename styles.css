@@ -1,0 +1,260 @@
+body{
+    background-color: black;
+}
+
+/* navigation bar----------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+
+#navbar > .navbar > .container-fluid{
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+#navbar > .navbar > .container-fluid > a {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05cm;
+}
+
+#navbar > .navbar > .container-fluid > .collapse > .navbar-nav > .nav-item > a {
+    font-family: Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.04cm;
+    
+}
+
+#navbar > .navbar > .container-fluid > .collapse > .navbar-nav > l1 :hover a {
+    color: white;
+}
+
+/* Section 1------------------------------------------------------------------------------------------------------------- */
+
+ .container{
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 650px;
+}
+
+.img-gallary{
+    display: flex;
+    justify-content: center;
+}
+
+.imgs{
+    width: 200px;
+    height: 600px;
+    margin: 5px;
+    background: url(images/peakpx.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.5s;
+    filter: grayscale(70%);    
+}
+
+.imgs:nth-child(2){
+    background: url(images/pxfuel\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgs:nth-child(3){
+    background: url(images/pxfuel\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgs:nth-child(4){
+    background: url(images/pxfuel\ \(5\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgs:nth-child(5){
+    background: url(images/pxfuel\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imgs:nth-child(6){
+    background: url(images/viratkohlilondontraining_0_x.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imgs:hover{ 
+    width: 350px;
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+/* Section 2------------------------------------------------------------------------------------------------------------- */
+
+.section-info{
+    display: flex;
+    gap: 140px;
+}
+
+.name1{
+    color: orangered;
+    font-family: 'Arvo', serif;
+    margin-bottom: 10px;
+}
+
+.d-colon{
+    color: orangered;
+    font-size: 1cm;
+}
+
+.virat-info{
+    color: white;
+    text-align: start;
+    width: 80vh;
+    height: 50vh;
+    padding-top: 150px;
+}
+
+.virat-info2{
+    color: white;
+    text-align: end;
+    width: 80vh;
+    height: 50vh;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.carousel-inner{
+    width: 100vh;
+    height: 100vh;
+}
+
+.carousel-item{
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 70px;
+}
+
+
+
+
+/*
+.background-video{
+    
+    filter: grayscale(100%);
+    text-align: center;
+    height: 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.d-block{
+    height: 540px;
+    width: 960px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.p2{
+    color: rgb(255, 123, 0);
+    letter-spacing:2mm;
+    font-family: 'Black Ops One', cursive;
+    font-size:0.8cm;
+    text-align: start;
+    padding-left: 40px;
+}
+
+.bg-vid{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+
+.bg-vid > video{
+    
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    width: auto;
+    height: auto;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+/* Section 3------------------------------------------------------------------------------------------------------------- */
+
+.brand-video {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    padding-top: 100px;
+  }
+  .brand-video video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  /* Section 3------------------------------------------------------------------------------------------------------------- */
+
+  .newsletter{
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    padding: 10% 10% 10% 10%;
+  }
+
+  .newsletter > h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.5mm;
+  }
+
+  .newsletter > p{
+    color: aliceblue;
+  }
+
+  .button {
+    transition-duration: 0.4s;
+    background-color: orangered;
+    color: white;
+    width: 400px;
+    height: 50px;
+    font-size: 4mm;
+    font-family: sans-serif;
+    padding: 0;
+    border: 0;
+  }
+  
+  .button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+  footer{
+    color: rgb(171, 171, 171);
+    text-align: center;
+  }
